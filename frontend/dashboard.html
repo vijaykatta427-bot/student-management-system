@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Management System - Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <h2>Student MS</h2>
+
+            <nav>
+                <a href="dashboard.html" class="active">Dashboard</a>
+                <a href="students.html">Students</a>
+                <a href="add-student.html">Add Student</a>
+                <a href="#">Attendance</a>
+                <a href="#">Reports</a>
+                <a href="#">Settings</a>
+            </nav>
+
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <header class="topbar">
+                <div>
+                    <h1>Dashboard</h1>
+                    <p>Welcome to Student Management System</p>
+                </div>
+
+                <div class="profile">
+                    Admin
+                </div>
+            </header>
+
+
+            <!-- Statistics -->
+            <section class="stats">
+
+                <div class="stat-card">
+                    <h3>Total Students</h3>
+                    <p>120</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Departments</h3>
+                    <p>6</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Courses</h3>
+                    <p>12</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Attendance</h3>
+                    <p>92%</p>
+                </div>
+
+            </section>
+
+
+            <!-- Recent Students -->
+            <section class="students-section">
+
+                <div class="section-header">
+                    <h2>Recent Students</h2>
+
+                    <a href="students.html">
+                        View All
+                    </a>
+                </div>
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Roll Number</th>
+                            <th>Department</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>01</td>
+                            <td>Rahul</td>
+                            <td>23A01</td>
+                            <td>ECE</td>
+                            <td>3rd</td>
+                        </tr>
+
+                        <tr>
+                            <td>02</td>
+                            <td>Priya</td>
+                            <td>23A02</td>
+                            <td>CSE</td>
+                            <td>3rd</td>
+                        </tr>
+
+                        <tr>
+                            <td>03</td>
+                            <td>Arjun</td>
+                            <td>23A03</td>
+                            <td>EEE</td>
+                            <td>2nd</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
